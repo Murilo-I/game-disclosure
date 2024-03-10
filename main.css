@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: whitesmoke;
+    background-color: rgb(55, 55, 55);
+}
+
+img {
+    box-shadow: 0 0 10px 5px whitesmoke;
+}
+
+.btn-play {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: rgb(50, 0, 90);
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+button a {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(50, 0, 90);
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+a {
+    margin: auto 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+main {
+    margin: 12vh 10vw 0 10vw;
+}
+
+#characters {
+    margin: 5vh 0;
+}
+
+.overview p {
+    text-align: justify;
+}
+
+.batman,
+.joker {
+    margin: 8vh 0;
+}
+
+.batman img {
+    height: 40vh;
+    position: absolute;
+}
+
+.batman p {
+    text-align: justify;
+    width: 50vw;
+    margin-left: 29vw;
+}
+
+.joker img {
+    height: 40vh;
+    position: absolute;
+    right: 10vw;
+}
+
+.joker p {
+    text-align: justify;
+    width: 50vw;
+    margin-right: 29vw;
+}
+
+.scenery {
+    margin: 18vh 0;
+}
+
+.scenery img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.scenery p {
+    text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+    margin: 20px 0;
+}
+
+@media (width <=1200px) {
+
+    .batman img,
+    .joker img {
+        height: 30vh;
+    }
+}
+
+@media (height >=1180px) {
+
+    nav {
+        height: 5vh;
+    }
+}
+
+@media (height >=1280px) {
+
+    .batman img,
+    .joker img {
+        height: 18vh;
+    }
+}
+
+@media (width <=840px) {
+
+    nav a {
+        margin: auto;
+    }
+
+    .batman img,
+    .joker img {
+        position: relative;
+        display: block;
+
+        right: 0;
+        margin: 0 auto 20px auto;
+    }
+
+    .batman p,
+    .joker p {
+        margin: 0;
+        width: 100%;
+    }
+}
