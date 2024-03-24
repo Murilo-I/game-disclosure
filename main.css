@@ -52,7 +52,15 @@ a {
 }
 
 main {
-    margin: 12vh 10vw 0 10vw;
+    margin: 12vh 10vw 30px 10vw;
+}
+
+iframe {
+    max-width: 1920px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    max-height: 1080px;
+    height: auto;
 }
 
 #characters {
